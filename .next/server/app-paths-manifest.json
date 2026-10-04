@@ -1,0 +1,9 @@
+{
+  "/[lang]/page": "app/[lang]/page.js",
+  "/[lang]/polityka-prywatnosci/page": "app/[lang]/polityka-prywatnosci/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/enquiry/route": "app/api/enquiry/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js"
+}

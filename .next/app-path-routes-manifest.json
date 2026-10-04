@@ -1,0 +1,9 @@
+{
+  "/[lang]/page": "/[lang]",
+  "/[lang]/polityka-prywatnosci/page": "/[lang]/polityka-prywatnosci",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/enquiry/route": "/api/enquiry",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml"
+}

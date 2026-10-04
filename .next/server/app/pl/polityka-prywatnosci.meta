@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[lang]/layout,_N_T_/[lang]/polityka-prywatnosci/layout,_N_T_/[lang]/polityka-prywatnosci/page,_N_T_/pl/polityka-prywatnosci"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$lang/polityka-prywatnosci/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/d70f9be40234e4360d476e65695abad569a0449543304b971e7c1dda3b8cfb38/$/pl/polityka-prywatnosci",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/[lang]/polityka-prywatnosci/page"
+    },
+    "isFallback": false
+  }
+}

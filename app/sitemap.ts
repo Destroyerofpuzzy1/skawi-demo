@@ -1,0 +1,11 @@
+import type { MetadataRoute } from "next";
+import { site } from "@/lib/site";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const languages = { pl: `${site.url}/`, en: `${site.url}/en`, uk: `${site.url}/ua` };
+  return [
+    { url: `${site.url}/`, changeFrequency: "monthly", priority: 1, alternates: { languages } },
+    { url: `${site.url}/en`, changeFrequency: "monthly", priority: 0.8, alternates: { languages } },
+    { url: `${site.url}/ua`, changeFrequency: "monthly", priority: 0.8, alternates: { languages } },
+  ];
+}
